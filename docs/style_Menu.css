@@ -1,1 +1,107 @@
 
+.menu {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+#a{
+    color:#fff;
+   margin: 10px;
+   margin-top: auto;
+   position: relative;
+   border-radius: 20px;
+  
+}
+.pad{
+    margin-left: 50px;
+}
+.a
+{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+ 
+.search{
+    width:max-content;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 15px;
+    background-color:white;
+    width: 550px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+
+}
+.search-input{
+    font-size: 16px;
+    font-family: ;
+    color:#f6f6f6;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background:transparent;
+    width:300px;
+
+}
+.search-input::placeholder{
+    color: rgba(0,0,0,0.25);
+
+}
+.search-icon{
+    color: #5f6368;
+}
+#search-icon material-symbols-outlined{
+    color:#5f6368;
+    
+}
+ul{
+    padding:0;
+    margin-left: 10px;
+    list-style: none;
+    display: flex;
+
+}
+ul li{
+    font-size: 24px;
+    font:27px / 27px Roboto, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+ul li:nth-child(1){
+    color:#4285F4
+}
+ul li:nth-child(2){
+    color: #DB4437
+}
+ul li:nth-child(3){
+    color:  #F4B400
+
+}
+ul li:nth-child(4){
+    color:#4285F4
+
+}
+ul li:nth-child(5){
+    color:#0F9D58
+
+
+}
+ul li:nth-child(6){
+    color:#DB4437
+
+}
+#id{
+    color:#5f6368;
+    
+}
+#Account{
+    color:#5f6368;
+    padding: 2px;
+    display: flex;
+    font-family: "Product Sans", Arial, sans-serif;
+    font: size 23px;
+    text-decoration: none;
+
+}
+
+
+  
